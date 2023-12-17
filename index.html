@@ -20,19 +20,22 @@
         <h1>AI Recipe Generator</h1>
       </header>
       <main>
-        <form id="recipe-generator-form">
-          <input
-            type="text"
-            placeholder="what would you like to cook?"
-            autofocus
-            required
-            autocomplete="off"
-            class="question"
-            id="recipe-question"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="recipe" id="recipe">recipe here</div>
+        <div class="form-container">
+          <form id="recipe-generator-form">
+            <input
+              type="text"
+              placeholder="what would you like to cook?"
+              autofocus
+              required
+              autocomplete="off"
+              class="question"
+              id="recipe-question"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="example">ie. cookies, pasta, chicken, etc.</div>
+        </div>
+        <div class="recipe hidden" id="recipe"></div>
       </main>
       <footer>
         This project was coded by Rebecca Shuping and is
